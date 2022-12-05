@@ -23,6 +23,15 @@
 | 17 | table \<table\>|| creates a table|
 | 18 | \<tr\> | \<\/tr\>| creates a new row inside the table |
 | 19 | \<td\> | | holds data, which is put inside \<tr\> |
+| 20 | background | image/video url | sets the background for the given item |
+| 21 | \<form\> | \<\/form\> | contains the form <br> - name = "nameofform" <br> - action = "submit.php" (url where the info is sent to) <br> - method="post/get" |
+| 22 | Get | method="get" | - requests method from a resource <br> - name& value pairs are sent in the url string <br> - can be cached/ in history |
+| 23 | Post | method="post" | - submits data to be processed <br> - sends name/value in http body <br> - cannot be cached/ in history |
+| 24 | \<input\/\> | | - takes input from the user |
+| 25 | \<input **type** \/\> | "text", "number", "email" ... | |
+| 26 | \<input **name** \/\> | "name of the feild" ... | - important as is used to identify in the script using the name |
+| 27 | \<input **maxlength** \/\> | "50" ... | limits the input upto given value |
+
 
 </div>
 
