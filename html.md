@@ -31,10 +31,31 @@
 | 25 | \<input **type** \/\> | "text", "number", "email" ... | |
 | 26 | \<input **name** \/\> | "name of the feild" ... | - important as is used to identify in the script using the name |
 | 27 | \<input **maxlength** \/\> | "50" ... | limits the input upto given value |
-
+| 28 | \<select> | name="" | \<option> Drop down options |
+| 29 | \<option> | value="" | \<option value="something"> somehing </option>|
+| 30 | \<input type="checkbox" name="something" value=""> | something | checkbox input(multiple options) |
+| 31 | \<input type="radio" name="same-name" value=""> | "" | select one of the radio buttons with same name |
+| 32 | \<textarea name="" cols="" rows="">| "" | text area with adjustable height and width |
+| 33 | \<input type="submit" value="">| "" ||
+| 34 | \<input type="reset" value="">| "" ||
+| 35 | \<iframe src="https://animusstudios.com" width="100px">\</iframe>| widht | shows anther webpage inside the given dimensions |
+ 
 
 </div>
 
+<div class="header">
+    <table width="100%" height="80px" border="0" bgcolor="#000000">
+        <tr>
+        <td align="left" border="0">
+            <table width="500px" align="center">
+                <td width="90px" border="0"><font face="monospace" color="white">HOME</font></td>
+                <td width="90px" border="0"><font face="monospace" color="white">SERVICES</font></td>
+                <td width="90px" border="0"><font face="monospace" color="white">ABOUT</font></td>
+            </table>
+        </td>
+        </tr>
+    </table>
+</div>
 
 
 
