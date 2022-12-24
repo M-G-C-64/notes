@@ -36,8 +36,8 @@
 | 30 | \<input type="checkbox" name="something" value=""> | something | checkbox input(multiple options) |
 | 31 | \<input type="radio" name="same-name" value=""> | "" | select one of the radio buttons with same name |
 | 32 | \<textarea name="" cols="" rows="">| "" | text area with adjustable height and width |
-| 33 | \<input type="submit" value="">| "" ||
-| 34 | \<input type="reset" value="">| "" ||
+| 33 | \<input type="submit" value="">| "" |<input type="submit" value="Submit">|
+| 34 | \<input type="reset" value="">| "" |<input type="reset" value="Reset">|
 | 35 | \<iframe src="https://animusstudios.com" width="100px">\</iframe>| widht | shows anther webpage inside the given dimensions |
  
 
